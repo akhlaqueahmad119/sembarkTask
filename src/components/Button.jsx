@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import "../styles/button.css";
+import "../styles/Button.css";
 const Button = memo(
   ({ text, onClick, type = "button", styleType = "primary" }) => {
     return (
